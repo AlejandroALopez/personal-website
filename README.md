@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Personal Website
+
+Here is my personal website hosted in Github Pages. Because of some deployment issues, I had to move the contents from the original repo into this one. The original repo containing the entire commit history for the website is [here](https://github.com/AlejandroALopez/studyWebpage).
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
