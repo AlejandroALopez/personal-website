@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.a4344d48.css",
+    "main.js": "/personal-website/static/js/main.12dfeb62.js",
+    "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
+    "static/media/BayesEMimg3.png": "/personal-website/static/media/BayesEMimg3.4c0252bbf215d213530c.png",
+    "static/media/EQ2img2.png": "/personal-website/static/media/EQ2img2.52138dab9f8a9580576d.png",
+    "static/media/connectUSimg1.png": "/personal-website/static/media/connectUSimg1.61cdcb2906f16a90ad15.png",
+    "static/media/BayesEMimg1.png": "/personal-website/static/media/BayesEMimg1.c66fabe241aed71fef79.png",
+    "static/media/BayesEMimg2.png": "/personal-website/static/media/BayesEMimg2.9a44895c0bdc7f7be8a9.png",
+    "static/media/EQ2img3.png": "/personal-website/static/media/EQ2img3.bdae01bad801b9f232c3.png",
+    "static/media/EQ2img1.png": "/personal-website/static/media/EQ2img1.958c448790a34fcf992c.png",
+    "static/media/cv.pdf": "/personal-website/static/media/cv.d4a07a8bbcbc9b1de934.pdf",
+    "static/media/profile.jpeg": "/personal-website/static/media/profile.b01b698a462b9a08e606.jpeg",
+    "index.html": "/personal-website/index.html",
+    "main.a4344d48.css.map": "/personal-website/static/css/main.a4344d48.css.map",
+    "main.12dfeb62.js.map": "/personal-website/static/js/main.12dfeb62.js.map",
+    "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4344d48.css",
+    "static/js/main.12dfeb62.js"
+  ]
+}
