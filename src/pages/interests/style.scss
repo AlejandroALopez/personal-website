@@ -1,0 +1,93 @@
+.interests-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #9d0000;
+
+  .title {
+    font-size: 40px;    
+    margin-left: 7.5vw;
+  }
+
+  .instructions {
+    font-size: 24px;
+    margin-left: 7.5vw;
+  }
+
+  .icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2vh;
+    margin-left: 5vw;
+  }
+
+  .icon-info-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icon {
+    transition: transform .3s;
+  }
+
+  .icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+
+  .info-bubble {
+    margin-top: 5vh;
+    background-color: black;
+    border-radius: 50px;
+    opacity: 0;
+    transition: opacity .5s;
+  }
+
+  #icon1:hover + #info1 {
+    opacity: 1;
+  }
+
+  #icon2:hover + #info2 {
+    opacity: 1;
+  }
+
+  #icon3:hover + #info3 {
+    opacity: 1;
+  }
+
+  #icon4:hover + #info4 {
+    opacity: 1;
+  }
+
+  .info-text {
+    text-align: center;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #ffffff;
+  }
+
+  .subtitle-text {
+    margin-left: 20px;
+  }
+
+  .bullet-text {
+    margin-left: 40px;
+  }
+
+  @media screen and (max-width: 1000px){
+    .icons-container  {
+      flex-direction: column;
+    }
+    .icon-info-container {
+      flex-direction: row;
+    }
+    .info-bubble {
+      margin-top: 0;
+      margin-left: 50px;
+    }
+  }
+}

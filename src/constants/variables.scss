@@ -1,0 +1,37 @@
+// Font declarations
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+// Font variables
+$lato: 'Lato', sans-serif;
+
+// Site colors
+$red: #2078B9;
+$negative-red: #DF7777;
+$yellow: #56C6A4;
+$positive-green: #98C55C;
+$blue: #336099;
+
+$white: #FFFFFF;
+$background: #FCFBFB;
+$mid-gray: #666060;
+$listing-gray: #4F5257;
+$dark-gray: #262222;
+
+$black: #020202;
+$white: #FFFFFF;
+
+// Gradients
+$red-orange-grad: linear-gradient(135deg, rgba(86, 198, 164, 0.67) 0%, #2078B9 100%);
+$opacity-grad: linear-gradient(180deg, rgba(250, 252, 255, 0) 0%, #FCFBFB 98.64%);
+
+// Layout variables
+$filter-window-width: 20vw;
+$header-height: 60px;
+
+$closed-users-padding: 20px;
+$closed-users-height: 75vh;
+$admin-title-height: 42px;
+$admin-tile-spacing: 12px;
+
+$gradient-radius: 8px;
+$organizationPanel-panel-margin: 30px;

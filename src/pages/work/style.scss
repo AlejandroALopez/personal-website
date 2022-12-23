@@ -1,0 +1,88 @@
+.work-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #3f0e0e;
+
+    .title {
+        margin-left: 4vw;
+        font-size: 40px;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 70%;
+        align-items: center;
+
+    }
+
+    .arrow {
+        font-size: 3rem;
+        color: #ffffff;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: row;
+        height: 75vh;
+        width: 75vw;
+        background-color: #000000;
+        border-radius: 20px;
+    }
+
+    .text-container {
+        margin: 2%;
+        width: 30%;
+    }
+
+    .project-title {
+        font-size: 48px;
+    }
+
+    .project-description {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .images-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .image-eq2 {
+        height: 350px;
+        width: 175px;
+        margin: 20px;
+        border-radius: 15px;
+    }
+
+    .image-connectus {
+        height: 60%;
+        width: 90%;
+        margin: 20px;
+        border-radius: 15px;
+    }
+    @media screen and (max-width: 1200px){
+        .project {
+          flex-direction: column;
+          height: 100%;
+        }
+        .text-container {
+            width: 90%;
+        }
+        .project-description {
+            align-items: center;
+        }
+        .images-container {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}
+
