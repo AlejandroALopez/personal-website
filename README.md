@@ -1,6 +1,8 @@
 # Personal Website
 
-Here is my personal website hosted in Github Pages. Because of some deployment issues, I had to move the contents from the original repo into this one. The original repo containing the entire commit history for the website is [here](https://github.com/AlejandroALopez/studyWebpage).
+Here is my personal website, which is hosted [here](https://alejandroalopez.github.io/personal-website/) using Github Pages.
+
+Because of some deployment issues, I had to move the contents from the original repo into this one. The original repo containing the entire commit history for the website is [here](https://github.com/AlejandroALopez/studyWebpage).
 
 ## Getting Started with Create React App
 
