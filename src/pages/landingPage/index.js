@@ -1,5 +1,9 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import { Link } from 'react-scroll';
+import Particles from "react-particles";
+import { loadFull } from "tsparticles";
+import particlesConfig from '../../components/config/particles-config';
+
 import AboutMe from '../aboutMe';
 import Skills from '../skills';
 import Work from '../work';
@@ -12,6 +16,32 @@ import './style.scss';
 // import { fetchConstants } from '../actions/constantsActions';
 
 export default function LandingPage() {
+
+  const particlesInit = useCallback(async engine => {
+    console.log(engine);
+    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+    // starting from v2 you can add only the features you need reducing the bundle size
+    await loadFull(engine);
+}, []);
+
+  const particlesLoaded = useCallback(async container => {
+      await console.log(container);
+  }, []);
+
+  const ParticlesBackground = () => {
+    return (
+        <Particles 
+            params={particlesConfig}
+            id="tsparticles"
+            init={particlesInit}
+            loaded={particlesLoaded}
+          >
+
+        </Particles>
+    );
+  };
+
   return (
     <div className="landingPage-container">
       <div className="header-container">
@@ -42,6 +72,7 @@ export default function LandingPage() {
           <div className="dropdown-line" />
         </div>
       </div>
+      <ParticlesBackground />
       <div className="homepage" id="homepage">
         <div className="intro-container">
           <p className="intro">
