@@ -62,7 +62,7 @@ export default function LandingPage() {
           <div>
             <Link to="interests" spy smooth duration={500}>INTERESTS</Link>
           </div>
-          <div>
+          <div id="contact">
             <Link to="contact" spy smooth duration={500}>CONTACT</Link>
           </div>
         </div>
@@ -87,12 +87,12 @@ export default function LandingPage() {
           <div className="intro-buttons-container">
             <Link to="contact" spy smooth duration={500}>
               <button type="button" className="intro-button">
-                Contact me
+                <p>Contact me</p>
               </button>
             </Link>
             <a className="hyperlink" href={cv} target="_blank" rel="noreferrer">
               <button type="button" className="intro-button">
-                My resume
+                <p>My resume</p>
               </button>
             </a>
           </div>
