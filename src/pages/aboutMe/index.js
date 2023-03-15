@@ -19,7 +19,7 @@ export default function AboutMe() {
         <div className="point-container">
           <div className="aboutme-point">
             <i className="fas fa-globe-americas fa-3x" />
-            <p>Born in Lima, Peru</p>
+            <p>Born in Lima, Peru. US Resident</p>
           </div>
           <div className="aboutme-point">
             <i className="fas fa-graduation-cap fa-3x" />

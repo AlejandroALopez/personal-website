@@ -37,6 +37,7 @@
     cursor: pointer;
 
     p {
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
       transition: transform .3s;
     }
   }
@@ -86,10 +87,12 @@
  }
 
   .intro-container {
-    width: 50%;
+    width: 60%;
 
     .intro {
-      font-size: 40px;
+      font-family:monospace;
+      font-weight: 600;
+      font-size: 48px;
     }
     span {
       color: #9d0000;
