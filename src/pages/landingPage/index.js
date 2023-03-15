@@ -48,22 +48,34 @@ export default function LandingPage() {
         <div className="header-name">Alejandro Lopez</div>
         <div className="header-navigation">
           <div>
-            <Link to="homepage" spy smooth duration={500}>HOME</Link>
+            <Link to="homepage" spy smooth duration={500}>
+              <p>HOME</p>
+            </Link>
           </div>
           <div>
-            <Link to="aboutme" spy smooth duration={500}>ABOUT ME</Link>
+            <Link to="aboutme" spy smooth duration={500}>
+              <p>ABOUT ME</p>
+            </Link>
           </div>
           <div>
-            <Link to="skills" spy smooth duration={500}>SKILLS</Link>
+            <Link to="skills" spy smooth duration={500}>
+              <p>SKILLS</p>
+            </Link>
           </div>
           <div>
-            <Link to="work" spy smooth duration={500}>WORK</Link>
+            <Link to="work" spy smooth duration={500}>
+              <p>WORK</p>
+            </Link>
           </div>
           <div>
-            <Link to="interests" spy smooth duration={500}>INTERESTS</Link>
+            <Link to="interests" spy smooth duration={500}>
+              <p>INTERESTS</p>
+              </Link>
           </div>
-          <div id="contact">
-            <Link to="contact" spy smooth duration={500}>CONTACT</Link>
+          <div id="contact-button">
+            <Link to="contact" spy smooth duration={500}>
+              <p>CONTACT</p>
+            </Link>
           </div>
         </div>
         <div className="header-dropdown-container">
