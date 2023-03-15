@@ -74,7 +74,7 @@ export default function Work() {
                 <p className="project-title">EQ2</p>
                 <p className="project-description">
                   Mobile app to be used by instructors from the Lionheart Foundation to help trauma-impacted
-                  youth.
+                  youth. Includes features like progress tracking through videos and audio lessons, as well as goals and feelings check-in.
                 </p>
                 <p className="project-description">
                   The app was built on React Native and uses an ExpressJS backend connected to a Mongo database. It also uses AWS S3 to store
