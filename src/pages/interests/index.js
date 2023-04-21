@@ -23,7 +23,7 @@ export default function Interests() {
             <p className="info-text">I like to listen to multiple soundtracks while working or doing any other activity.</p>
             <p className="subtitle-text">Favorite themes come from:</p>
             <p className="bullet-text">- Games (Nier, Witcher 3)</p>
-            <p className="bullet-text">- Bands (Feint, The Starless)</p>
+            <p className="bullet-text">- Bands (Feint, Slipknot)</p>
             <p className="bullet-text">- Anime (Vinland Saga)</p>
           </div>
         </div>
