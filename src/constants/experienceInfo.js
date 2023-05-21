@@ -1,5 +1,7 @@
 import PhoneIcon from '../assets/phone.svg';
 import MonitorIcon from '../assets/monitor.svg';
+import BigPhoneIcon from '../assets/phone-big.svg';
+import BigMonitorIcon from '../assets/monitor-big.svg';
 
 export const projectsData = [
     {
@@ -14,6 +16,7 @@ export const projectsData = [
             'I spent most of my time working on their React frontend, but sometimes I interacted with their backend which used NestJS, Firebase, and Typescript, technologies unfamiliar to me at the time.',
         ],
         icon: MonitorIcon,
+        bigIcon: BigMonitorIcon,
     },
     {
         name: 'EQ2',
@@ -28,6 +31,7 @@ export const projectsData = [
             'The EQ2 app was released from the lab as an alpha version, and the partners were provided both the codebase and a Testflight build for further development and testing.',
         ],
         icon: PhoneIcon,
+        bigIcon: BigPhoneIcon,
     },
     {
         name: 'BayesEM',
@@ -41,6 +45,7 @@ export const projectsData = [
             'Currently, the app is ready to be used for gathering funding for the project that plans to use it, so DHMC residents and doctors can use it to aid their decision-making.',
         ],
         icon: PhoneIcon,
+        bigIcon: BigPhoneIcon,
     },
     {
         name: 'DALI Flex',
@@ -54,5 +59,6 @@ export const projectsData = [
             'The second team was Smart Microscope, a project that uses computer vision to create images of microorganism that can be sent to a special microscope, letting the user study and magnify such images as they would do with real organisms in a laboratory. I helped them by creating a user-friendly React frontend so users can manage the images to display, their information, and many other details.',
         ],
         icon: MonitorIcon,
+        bigIcon: BigMonitorIcon,
     },
 ];

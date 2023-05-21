@@ -10,10 +10,32 @@ export default function Experience() {
     <div className="work-section" id="work">
       {project ? 
           (
-            <div className='prj-container'>
+            <div className="prj-container">
               <button type="button" className="prj-back-button" onClick={() => setProject(null)}>
                 <p>&lt; {project.name}</p>
               </button>
+              <div className="prj-content-container">
+                <img src={project.bigIcon} alt="big icon" />
+                <div className="prj-description-container">
+                  <p className="prj-subtitle">Project Description</p>
+                  <div className="prj-description">
+                    {project.text.map((paragraph) => {
+                      return (
+                        <p className="prj-paragraph">{paragraph}</p>
+                      )
+                    })}
+                  </div>
+                </div>
+                <div className='separation-line'/>
+                <div className='prj-side-container'>
+                  <p className="prj-subtitle">Role</p>
+                  <p className="prj-text">{project.role}</p>
+                  <p className="prj-subtitle">Timeline</p>
+                  <p className="prj-text">{project.timeline}</p>
+                  <p className="prj-subtitle">Technologies</p>
+                  <p className="prj-text">{project.stack}</p>
+                </div>
+              </div>
             </div>
           )
           :
