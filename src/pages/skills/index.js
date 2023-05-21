@@ -17,7 +17,7 @@ export default function Skills() {
           );
         })}
       </div>
-      <p className="title">Tools I worked with:</p>
+      <p className="title">Other tools I worked with:</p>
       <div className="skills-container">
         {skillsExperiencedMap.map((skill) => {
           return (

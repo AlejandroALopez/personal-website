@@ -15,11 +15,21 @@
         font-size: 40px;
     }
 
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+
     .projects-container {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
         margin: 0 2em;
+
+        overflow-x: scroll;
+    }
+
+    .projects-container::-webkit-scrollbar {
+        display: none;
     }
 
     .project-element {
@@ -101,6 +111,7 @@
         width: 0.3vw;
         background-color: #FFFFFF;
         border-radius: 50px;
+        margin: 0 2.5em;
     }
 }
 
