@@ -7,7 +7,7 @@ import particlesConfig from '../../components/config/particles-config';
 import AboutMe from '../aboutMe';
 import Skills from '../skills';
 import Work from '../work';
-import Interests from '../interests';
+// import Interests from '../interests';
 import Contact from '../contact';
 import cv from '../../assets/cv.pdf';
 // import { connect } from 'react-redux';
@@ -64,14 +64,14 @@ export default function LandingPage() {
           </div>
           <div>
             <Link to="work" spy smooth duration={500}>
-              <p>WORK</p>
+              <p>EXPERIENCE</p>
             </Link>
           </div>
-          <div>
+          {/* <div>
             <Link to="interests" spy smooth duration={500}>
               <p>INTERESTS</p>
               </Link>
-          </div>
+          </div> */}
           <div id="contact-button">
             <Link to="contact" spy smooth duration={500}>
               <p>CONTACT</p>
@@ -113,7 +113,7 @@ export default function LandingPage() {
       <AboutMe />
       <Skills />
       <Work />
-      <Interests />
+      {/* <Interests /> */}
       <Contact />
     </div>
   );

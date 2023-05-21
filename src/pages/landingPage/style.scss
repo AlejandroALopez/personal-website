@@ -4,7 +4,6 @@
   margin: 0 auto;
 
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
 
   .header-container {
     display: flex;
@@ -23,8 +22,6 @@
  }
 
  .header-name {
-    font-family:'Courier New', Courier, monospace;
-    font-weight: 600;
     margin: 20px;
     font-size: 24px;
   }
@@ -39,7 +36,6 @@
     cursor: pointer;
 
     p {
-      font-family:Verdana, Geneva, Tahoma, sans-serif;
       transition: transform .3s;
     }
   }
@@ -62,7 +58,7 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 
-    background-color: #9d0000;
+    background-color: #226ad0;
   }
 }
 
@@ -92,12 +88,10 @@
     width: 60%;
 
     .intro {
-      font-family:monospace;
-      font-weight: 600;
       font-size: 48px;
     }
     span {
-      color: #9d0000;
+      color: #226ad0;
     }  
   }
 
@@ -126,8 +120,6 @@
     transition: transform .3s;
 
     p {
-      font-family: 'Courier New', Courier, monospace;
-      font-weight: 600;
       color: #ffffff;
     }
   }

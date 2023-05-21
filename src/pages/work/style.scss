@@ -3,94 +3,172 @@
     flex-direction: column;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #E7E7E1;
+
+    background-color: #2F333B;
 
     p {
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: 600;
-        color: #000000;
+        color: #FFFFFF;
     }
 
     .title {
-        margin-left: 4vw;
-        margin-bottom: 0px;
+        margin-left: 1em;
         font-size: 40px;
     }
 
-    .project-container {
+    .row {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        height: 70%;
-        margin-top: 0px;
-        align-items: center;
-
     }
 
-    .arrow {
-        font-size: 3rem;
-        cursor: pointer;
-        user-select: none;
-        color: #000000;
-    }
-
-    .project {
+    .projects-container {
         display: flex;
         flex-direction: row;
-        height: 75vh;
-        width: 80vw;
-        // background-color: #000000;
-        border-radius: 20px;
+        margin: 0 2em;
+
+        overflow-x: scroll;
     }
 
-    .text-container {
-        margin-right: 40px;
-        width: 45%;
+    .projects-container::-webkit-scrollbar {
+        display: none;
     }
 
-    .project-title {
-        font-size: 48px;
+    .project-element {
+        display: flex;
+        flex-direction: column;
+        
+        width: 25vw;
     }
 
-    .project-description {
+    .project-top-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 1.5em;
+
+        height: 20vh;
+    }
+
+    .project-info-container {
+        display: flex;
+        flex-direction: column;
+
+        p {
+            margin: 0.5em 0;
+        }
+    }
+
+    .project-info-title {
+        font-size: 24px;
+    }
+
+    .project-info-type {
+        font-size: 20px;
+    }
+    
+    .project-info-role {
+        font-style: italic;
+        font-size: 16px;
+    }
+
+    .stack-text {
+        margin: 2em 1em;
         font-size: 20px;
         text-align: justify;
+
+        height: 15vh;
+
+        span {
+            color: #369FFC;
+        }
     }
 
-    .images-container {
+    .read-more-button {
+        align-self: center;
+        width: 20vw;
+        background-color: #2F333B;
+        border: 3px solid #369FFC;
+        border-radius: 20px;
+        transition: transform .3s;
+
+        p {
+            color: #369FFC;
+            font-size: 20px;
+        }
+    }
+
+    .read-more-button:hover {
+        background-color: #369FFC;
+        cursor: pointer;
+        transform: scale(1.1);
+
+        p {
+            color: #FFFFFF;
+        }
+      }
+
+    .separation-line {
+        height: 70vh;
+        width: 0.3vw;
+        background-color: #FFFFFF;
+        border-radius: 50px;
+        margin: 0 2.5em;
+    }
+
+    .prj-back-button {
+        background: none;
+        border: none;
+        height: 10vh;
+        margin-left: 5em;
+        transition: transform .3s;
+
+        p {
+            font-size: 40px;
+        }
+    }
+
+    .prj-back-button:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+      }
+
+    .prj-content-container {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        margin: 0 2em;
+    }
+    
+    .prj-description-container {
+        height: 70vh;
+        width: 70vw;
+        margin-left: 2em;
     }
 
-    .image-eq2 {
-        height: 350px;
-        width: 175px;
-        margin: 10px;
-        border-radius: 15px;
+    .prj-subtitle {
+        font-size: 28px;
+        font-weight: 600;
     }
 
-    .image-connectus {
-        height: 60%;
-        width: 90%;
-        margin: 20px;
-        border-radius: 15px;
+    .prj-description {
+        height: 60vh;
+        overflow-y: scroll;
     }
-    @media screen and (max-width: 1200px){
-        .project {
-          flex-direction: column;
-          height: 100%;
-        }
-        .text-container {
-            width: 90%;
-        }
-        .project-description {
-            align-items: center;
-        }
-        .images-container {
-            flex-wrap: wrap;
-            justify-content: center;
-        }
+
+    .prj-description::-webkit-scrollbar {
+        display: none;
+    }
+
+    .prj-paragraph {
+        text-align: justify;
+        margin-bottom: 2em;
+    }
+
+    .prj-side-container {
+        width: 40vw;
+    }
+
+    .prj-text {
+        font-size: 20px;
+        margin-bottom: 2.5em;
     }
 }
 
