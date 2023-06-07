@@ -1,10 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { projectsData } from '../../constants/experienceInfo';
 
 import './style.scss';
 
 export default function Experience() {
   const [project, setProject] = useState(null);
+  const [isIntersecting, setIsIntersecting] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      setIsIntersecting(entry.isIntersecting);
+    });
+    observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <div className="work-section" id="work">
@@ -40,7 +50,7 @@ export default function Experience() {
           )
           :
           (
-              <div>
+              <div className={ `fade-in-section ${ isIntersecting ? 'is-visible' : '' }`} ref={ref}>
                 <p className="title">Experience</p>
                 <div className="projects-container">
                 {projectsData.map((p, index) => {
