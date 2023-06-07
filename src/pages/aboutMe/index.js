@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import profileImg from '../../assets/profile.jpg';
 import './style.scss';
 
 export default function AboutMe() {
+  const [isIntersecting, setIsIntersecting] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      setIsIntersecting(entry.isIntersecting);
+    });
+    observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <div className="aboutme-container" id="aboutme">
-      <img className="image" alt="profile_img" src={profileImg} />
-      <div className="aboutme-info-container">
+    <div className="aboutme-container" id="aboutme"> 
+      <img className={ `image fade-in-section ${ isIntersecting ? 'is-visible' : '' }` } alt="profile_img" src={profileImg} ref={ref}/>
+      <div className={ `aboutme-info-container fade-in-section ${ isIntersecting ? 'is-visible' : '' }` } ref={ref}>
         <p className="title">About me</p>
         <p className="paragraph">
           I love two things: Having fun, and working on challenging, meaningful projects. Either as a lone wolf developer or a
