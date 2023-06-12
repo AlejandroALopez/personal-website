@@ -9,7 +9,8 @@ import Skills from '../skills';
 import Work from '../work';
 // import Interests from '../interests';
 import Contact from '../contact';
-import cv from '../../assets/cv.pdf';
+// import cv from '../../assets/cv.pdf';
+import resume from '../../assets/resume.pdf';
 // import { connect } from 'react-redux';
 import './style.scss';
 
@@ -102,7 +103,7 @@ export default function LandingPage() {
                 <p>Contact me</p>
               </button>
             </Link>
-            <a className="hyperlink" href={cv} target="_blank" rel="noreferrer">
+            <a className="hyperlink" href={resume} target="_blank" rel="noreferrer">
               <button type="button" className="intro-button">
                 <p>My resume</p>
               </button>
