@@ -9,7 +9,6 @@ import Skills from '../skills';
 import Work from '../work';
 // import Interests from '../interests';
 import Contact from '../contact';
-// import cv from '../../assets/cv.pdf';
 import resume from '../../assets/resume.pdf';
 // import { connect } from 'react-redux';
 import './style.scss';
