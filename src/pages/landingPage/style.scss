@@ -99,6 +99,7 @@
   .intro-buttons-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
@@ -113,6 +114,7 @@
     height: 50px;
     margin-left: 2vw;
     margin-right: 2vw;
+    margin-top: 2vh;
     font-size: 18px;
     border-radius: 10px;
 
