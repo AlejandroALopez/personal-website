@@ -274,6 +274,7 @@
   .personal-project-header {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
   }
@@ -310,8 +311,6 @@
   }
 
   .personal-project-image {
-    width: 50vw;
-    height: 50vh;
-    background-color: #ffffff;
+    width: 60rem;
   }
 }

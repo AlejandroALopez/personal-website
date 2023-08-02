@@ -125,6 +125,7 @@ export default function Experience() {
                   </p>
                 </div>
                 <img
+                  className="personal-project-image"
                   src={personalProjectsData[activeProjectIndex].image}
                   alt={personalProjectsData[activeProjectIndex].name}
                 />
