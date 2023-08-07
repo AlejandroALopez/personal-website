@@ -9,7 +9,7 @@ import "./style.scss";
 export default function Experience() {
   const [project, setProject] = useState(null);
   const [activeProjectIndex, setActiveProjectIndex] = useState(0);
-  const [inPersonalProjectsTab, setInPersonalProjectsTab] = useState(false);
+  const [inPersonalProjectsTab, setInPersonalProjectsTab] = useState(true);
   const [isIntersecting, setIsIntersecting] = useState(false);
   const ref = useRef(null);
 
@@ -106,13 +106,15 @@ export default function Experience() {
                     <a href={`https://${personalProjectsData[activeProjectIndex].hostedURL}`} target="_blank" rel="noopener noreferrer">
                     <button
                       className="projects-header-button"
-                      onClick={() =>
-                        console.log(
-                          personalProjectsData[activeProjectIndex].hostedURL
-                        )
-                      }
                     >
                       <p>Visit site</p>
+                    </button>
+                    </a>
+                    <a href={`https://${personalProjectsData[activeProjectIndex].codeURL}`} target="_blank" rel="noopener noreferrer">
+                    <button
+                      className="projects-header-button"
+                    >
+                      <p>See code</p>
                     </button>
                     </a>
                   </div>

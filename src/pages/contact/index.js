@@ -18,7 +18,7 @@ export default function Contact() {
       <p className={ `title fade-in-section ${ isIntersecting ? 'is-visible' : '' }` } ref={ref}>Contact info</p>
       <div className={ `info-container mail-container fade-in-section ${ isIntersecting ? 'is-visible' : '' }` } ref={ref}>
         <i className="far fa-envelope fa-3x" />
-        <p>alejandro.a.lopez.cochachi.23@dartmouth.edu</p>
+        <p>alejandrolopezcochachi7@gmail.com</p>
       </div>
       <div className={ `info-container fade-in-section ${ isIntersecting ? 'is-visible' : '' }` } ref={ref}>
         <i className="fas fa-mobile-alt fa-3x" />

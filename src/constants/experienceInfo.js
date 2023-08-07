@@ -10,6 +10,7 @@ export const personalProjectsData = [
     title: "Task Manager",
     name: "Taskchemy",
     hostedURL: "taskchemy.vercel.app",
+    codeURL: "github.com/AlejandroALopez/taskchemy",
     description:
       "Keep track of daily tasks and daily routines with this user friendly web application.",
     tools: "React, Next.js, Tailwind CSS, Node.js, Express.js, MongoDB, Figma",
@@ -19,9 +20,10 @@ export const personalProjectsData = [
     title: "E-Commerce",
     name: "AFK",
     hostedURL: "afk-ecommerce.vercel.app",
+    codeURL: "github.com/AlejandroALopez/e-commerce",
     description:
       "E-commerce app for buying gaming laptops, mice, keyboards and headsets. Customize your desired laptop to achieve the best gaming experience.",
-    tools: "React, Next.js, Tailwind CSS, Node.js, Express.js, MongoDB, Figma",
+    tools: "React, Next.js, Tailwind CSS, Node.js, Express.js, MongoDB, Figma, Stripe",
     image: afkImg,
   },
 ];
