@@ -94,7 +94,7 @@ export default function LandingPage() {
             {' '}
             and I am a
             {' '}
-            <span>Full-Stack Engineer</span>
+            <span>Full Stack Engineer</span>
           </p>
           <div className="intro-buttons-container">
             <Link to="contact" spy smooth duration={500}>
