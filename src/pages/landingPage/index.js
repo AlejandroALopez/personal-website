@@ -45,7 +45,7 @@ export default function LandingPage() {
   return (
     <div className="landingPage-container">
       <div className="header-container">
-        <div className="header-name">Alejandro Lopez</div>
+        <div className="header-name">Alex Lopez</div>
         <div className="header-navigation">
           <div>
             <Link to="homepage" spy smooth duration={500}>
@@ -67,11 +67,6 @@ export default function LandingPage() {
               <p>PROJECTS</p>
             </Link>
           </div>
-          {/* <div>
-            <Link to="interests" spy smooth duration={500}>
-              <p>INTERESTS</p>
-              </Link>
-          </div> */}
           <div id="contact-button">
             <Link to="contact" spy smooth duration={500}>
               <p>CONTACT</p>
@@ -87,24 +82,21 @@ export default function LandingPage() {
       <ParticlesBackground />
       <div className="homepage" id="homepage">
         <div className="intro-container">
-          <p className="intro">
-            Hello! I am
-            {' '}
-            <span>Alejandro Lopez</span>
-            {' '}
-            and I am a
-            {' '}
-            <span>Full-Stack Developer</span>
+          <p className="intro-name">
+            Alex Lopez
+          </p>
+          <p className="intro-role">
+            Full Stack Software Engineer | Automations and Data-Driven Systems
+          </p>
+          <p className='intro-description'>
+            Software Engineer focused on automation and data workflows. 
+            Experienced with React and Node.js, and currently expanding into SQL, 
+            Python, and cloud-based data systems to build efficient, scalable systems.
           </p>
           <div className="intro-buttons-container">
             <Link to="contact" spy smooth duration={500}>
               <button type="button" className="intro-button">
                 <p>Contact me</p>
-              </button>
-            </Link>
-            <Link to="work" spy smooth duration={500}>
-              <button type="button" className="intro-button">
-                <p>Projects</p>
               </button>
             </Link>
             <a className="hyperlink" href={resume} target="_blank" rel="noreferrer">
